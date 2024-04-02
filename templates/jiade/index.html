@@ -746,27 +746,35 @@ Wallet Sidebar
 	</div>
 	</div>
 </div>
-
+<!-- Pago de la suncripción cuando pulsas en ampliar subcripción-->
 <div class="modal fade" id="exampleModal1" tabindex="-1"  aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header ">
-				<h5 class="modal-title">Make Payment</h5>
+				<h5 class="modal-title">Realizar pago de la subcripción</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
 					<div class="form-group">
-					<label class="form-label">Seller Mobile Number</label>
-					<input type="number" class="form-control mb-3" id="exampleInputEmail1"  placeholder="Number">
-					<label class="form-label">Product Name</label>
-					<input type="text" class="form-control mb-3" id="exampleInputEmail2"  placeholder=" Name">
-					<label class="form-label">Amount</label>
-					<input type="number" class="form-control mb-3" id="exampleInputEmail3"  placeholder="Amount">
+						<label class="form-label">Suscripción</label>
+						<select class="form-control mb-3" id="exampleInputEmail3">
+							<option selected disabled>Seleccione tipo de suscripción</option>
+							<option value="mensual">Mensual</option>
+							<option value="trimestral">Trimestral</option>
+							<option value="semestral">Semestral</option>
+							<option value="anual">Anual</option>
+						</select>
+						
+						<label class="form-label">Número de targeta</label>
+						<input type="tel" class="form-control mb-3" id="exampleInputEmail1" placeholder="Introduzca numero de targeta">
+						<label class="form-label">este lo he dejado porque no se hace manual nada del cobro</label>
+						<input type="text" class="form-control mb-3" id="exampleInputEmail2" placeholder="total en €">
 					</div>
 				</div>
+				
 				<div class="modal-footer">
-				<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
+				<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-primary">Pagar</button>
 				</div>
 			</div>
 			</div>
@@ -782,7 +790,7 @@ Wallet Sidebar
 ***********************************-->
 <div class="footer style-1">
 	<div class="copyright">
-		<p>Copyright © Designed &amp; Developed by <a href="https://dexignlab.com/" target="_blank">DexignLab</a> <span class="current-year">2024</span></p>
+		<p>Copyright © Designed &amp; Developed by PracticasAIBF  <span class="current-year">2024</span></p>
 	</div>
 </div>
 <!--**********************************

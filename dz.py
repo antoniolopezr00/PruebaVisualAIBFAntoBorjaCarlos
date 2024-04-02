@@ -7,7 +7,7 @@ dz_array = {
             "description":" Artificial Intelligence Banking Forest",
             "og_title":"Artificial Intelligence Banking Forest",
             "og_description":"Artificial Intelligence Banking Forest",
-            "og_image":"Artificial Intelligence Banking Forest",
+            "og_image":"https://jiade.dexignlab.com/django/social-image.png",
             "title":"Artificial Intelligence Banking Forest",
         },
         "global":{
