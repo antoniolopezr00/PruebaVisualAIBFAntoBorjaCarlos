@@ -1,7 +1,7 @@
 {% load static %}
 <div class="dlabnav follow-info">
     <div class="feature-box">
-        <div class="wallet-box">
+        <!--div class="wallet-box">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <rect x="0" y="0" width="24" height="24"/>
@@ -14,8 +14,8 @@
                 <h4 class="text-white mb-0 d-block">$2353.25</h4>
                 <small>Withdraw Money</small>
             </div>
-        </div>
-        <div class="d-flex justify-content-center align-items-center">
+        </div-->
+        <!--div class="d-flex justify-content-center align-items-center">
             <div class="item-1">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="40px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -38,58 +38,60 @@
                 <h4 class="mb-0 text-white"><span class="counter">2024</span>k</h4>
                 <small>Following</small>
             </div>
-        </div>
+        </div-->
     </div>
-    <span class="main-menu">Main Menu</span>
+    <span class="main-menu">Menú principal</span>
     <div class="menu-scroll">
         <div class="dlabnav-scroll">	
             <ul class="metismenu" id="menu">
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
-                        <i class="material-symbols-outlined">dashboard</i>
-                        <span class="nav-text">Dashboard</span>
+                        <i class="material-symbols-outlined">monitoring</i>
+                        <span class="nav-text">Series de Tiempo </span>
                     </a>
                     <ul aria-expanded="false">
-                        <li><a href="{% url 'jiade:index' %}">Dashboard Light</a></li>
-                        <li><a href="{% url 'jiade:index-2' %}">Dashboard Dark</a></li>
-                        <li><a href="{% url 'jiade:market' %}">Market</a></li>
-                        <li><a href="{% url 'jiade:coin-details' %}">Coin Details</a></li>
-                        <li><a href="{% url 'jiade:portfolio' %}">Portfolio</a></li>
+                        <li><a href="{% url 'jiade:index' %}">Trend</a></li>
+                        <li><a href="{% url 'jiade:index-2' %}">Seasonal</a></li>
+                        <li><a href="{% url 'jiade:market' %}">Residuos</a></li>
+                        <li><a href="{% url 'jiade:coin-details' %}">Prueba ADF</a></li>
+                        <li><a href="{% url 'jiade:portfolio' %}">Autocorrelación</a></li>
+                        <li><a href="{% url 'jiade:portfolio' %}">Tabla Sarimax y Pronóstico Arima</a></li>
+                        <li><a href="{% url 'jiade:portfolio' %}">Predicción Optimista y Pesimista</a></li>
                     </ul>
 
                 </li>
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">monitoring</i>
-                        <span class="nav-text">Trading</span>
+                        <span class="nav-text">Autocorrelación</span>
                     </a>
-                    <ul aria-expanded="false">
+                    <!--ul aria-expanded="false">
                         <li><a href="{% url 'jiade:trading-market' %}">Market</a></li>
                         <li><a href="{% url 'jiade:ico-listing' %}">Ico Listing</a></li>
                         <li><a href="{% url 'jiade:p2p' %}">P2P</a></li>
                         <li><a href="{% url 'jiade:future' %}">Future</a></li>
-                    </ul>
+                    </ul-->
                 </li>
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
-                        <i class="material-symbols-outlined">monetization_on</i>
-                        <span class="nav-text">Crypto</span>
+                        <i class="material-symbols-outlined">monitoring</i>
+                        <span class="nav-text"> Árboles de Regresión </span>
                     </a>
-                    <ul aria-expanded="false">
+                    <!--ul aria-expanded="false">
                         <li><a href="{% url 'jiade:market-watch' %}">Market Watch </a></li>
                         <li><a href="{% url 'jiade:exchange' %}">Exchange</a></li>
                         <li><a href="{% url 'jiade:banking' %}">Banking</a></li>
-                    </ul>
+                    </ul-->
                 </li>
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
-                        <i class="material-symbols-outlined">lab_profile</i>
-                        <span class="nav-text">Reports</span>
+                        <i class="material-symbols-outlined">monitoring</i>
+                        <span class="nav-text">Random Forest</span>
                     </a>
-                    <ul aria-expanded="false">
+                    <!--ul aria-expanded="false">
                         <li><a href="{% url 'jiade:history' %}">History</a></li>
                         <li><a href="{% url 'jiade:orders' %}">Orders</a></li>
                         <li><a href="{% url 'jiade:reports' %}">Report</a></li>
                         <li><a href="{% url 'jiade:user' %}">User</a></li>
-                    </ul>
+                    </ul-->
                 </li>
-                <li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
+                <!--li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">apps_outage</i>
                         <span class="nav-text">Apps</span>
                     </a>
@@ -189,8 +191,8 @@
                         <i class="material-symbols-outlined">widgets</i>
                         <span class="nav-text">Widget</span>
                     </a>
-                </li>
-                <li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
+                </li-->
+                <!--li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">request_quote</i>
                         <span class="nav-text">Forms</span>
                     </a>
@@ -230,9 +232,9 @@
                         <li><a href="{% url 'jiade:page-lock-screen' %}">Lock Screen</a></li>
                         <li><a href="{% url 'jiade:page-empty' %}">Empty Page</a></li>
                     </ul>
-                </li>
+                </li-->
             </ul>
-            <div class="support-box">
+            <!--div class="support-box">
                 <div class="media"> 
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="46" viewBox="0 0 40 46">
@@ -249,7 +251,7 @@
             <div class="copyright">
                 <p><strong>Jiade Crypto Trading UI Template</strong> © <span class="current-year">2024</span> All Rights Reserved</p>
                 <p class="fs-12">Made with <span class="heart"></span> by DexignLab</p>
-            </div>
+            </div-->
         </div>
     </div>
 </div>
