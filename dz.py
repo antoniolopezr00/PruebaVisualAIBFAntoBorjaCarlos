@@ -4,11 +4,11 @@ folder_name = "jiade"
 dz_array = {
         "public":{
             "favicon":f"{folder_name}/images/favicon.png",
-            "description":"Empower your cryptocurrency trading platform with Jiade, the ultimate Django Crypto Trading UI Admin Bootstrap 5 Template. Seamlessly combining sleek design with the power of Bootstrap, Jiade offers a sophisticated and user-friendly interface for managing your crypto assets. Packed with customizable components, responsive charts, and a modern dashboard, Jiade accelerates your development process. Crafted for efficiency and aesthetics, this template is your key to creating a cutting-edge crypto trading experience. Explore Jiade today and elevate your crypto trading platform to new heights with a UI that blends functionality and style effortlessly.",
-            "og_title":"Jiade - Django Crypto Trading UI Admin Bootstrap Template | Dexignlabs",
-            "og_description":"Empower your cryptocurrency trading platform with Jiade, the ultimate Django Crypto Trading UI Admin Bootstrap 5 Template. Seamlessly combining sleek design with the power of Bootstrap, Jiade offers a sophisticated and user-friendly interface for managing your crypto assets. Packed with customizable components, responsive charts, and a modern dashboard, Jiade accelerates your development process. Crafted for efficiency and aesthetics, this template is your key to creating a cutting-edge crypto trading experience. Explore Jiade today and elevate your crypto trading platform to new heights with a UI that blends functionality and style effortlessly.",
+            "description":" Artificial Intelligence Banking Forest",
+            "og_title":"Artificial Intelligence Banking Forest",
+            "og_description":"Artificial Intelligence Banking Forest",
             "og_image":"https://jiade.dexignlab.com/django/social-image.png",
-            "title":"Jiade - Django Crypto Trading UI Admin Bootstrap Template | Dexignlabs",
+            "title":"Artificial Intelligence Banking Forest",
         },
         "global":{
             "css":[
