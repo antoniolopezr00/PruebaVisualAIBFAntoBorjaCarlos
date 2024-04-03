@@ -1,3 +1,5 @@
+<!--ESTA ES EL MENÚ DE LA IZQUIERDA DE LA PAG INDEX-->
+
 {% load static %}
 <div class="dlabnav follow-info">
     <div class="feature-box">
@@ -63,12 +65,17 @@
                         <i class="material-symbols-outlined">monitoring</i>
                         <span class="nav-text">Autocorrelación</span>
                     </a>
-                    <!--ul aria-expanded="false">
-                        <li><a href="{% url 'jiade:trading-market' %}">Market</a></li>
-                        <li><a href="{% url 'jiade:ico-listing' %}">Ico Listing</a></li>
-                        <li><a href="{% url 'jiade:p2p' %}">P2P</a></li>
-                        <li><a href="{% url 'jiade:future' %}">Future</a></li>
-                    </ul-->
+                    <ul aria-expanded="false">
+                        <li><a href="{% url 'jiade:trading-market' %}">Lead Source</a></li>
+                        <li><a href="{% url 'jiade:ico-listing' %}">Count</a></li>
+                        <li><a href="{% url 'jiade:p2p' %}">Last Activity</a></li>
+                        <li><a href="{% url 'jiade:future' %}">Gráfico de Distribucion Lead Profile</a></li>
+                        <li><a href="{% url 'jiade:trading-market' %}">Histograma para los indices</a></li>
+                        <li><a href="{% url 'jiade:ico-listing' %}">Matriz de Confusión</a></li>
+                        <li><a href="{% url 'jiade:p2p' %}">Gráfico de caja</a></li>
+                        <li><a href="{% url 'jiade:future' %}">Curva Roc</a></li>
+                        <li><a href="{% url 'jiade:future' %}">Definicion de costos y beneficios</a></li>
+                    </ul>
                 </li>
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">monitoring</i>
