@@ -109,6 +109,9 @@ urlpatterns = [
     
     #Nuevos de antonio
     path('trend/',jiade_views.trend, name="trend"),
+    
+]
+'''
     path('seasonal/',jiade_views.seasonal, name="seasonal"),
     path('sarimax_arima/',jiade_views.sarimax_arima, name="sarimax_arima"),
     path('residuos/',jiade_views.residuos, name="residuos"),
@@ -126,5 +129,4 @@ urlpatterns = [
     path('count/',jiade_views.count, name="count"),
     path('costos_beneficos/',jiade_views.costos_beneficios, name="costos_beneficos"),
     path('arboles_decision/',jiade_views.arboles_decision, name="arboles_decision"),
-
-]
+    '''
