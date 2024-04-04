@@ -2,8 +2,7 @@ from django.shortcuts import render
 
 
 
-def trend(request):
-    return render(request,'jiade/usuario/trend.html')
+
     
 
 def index(request):
@@ -566,6 +565,11 @@ def page_error_500(request):
 
 def page_error_503(request):
     return render(request,'503.html')
+
+#Nuevos de Antonio
+
+def trend(request):
+    return render(request,'jiade/usuario/series_tiempo/trend.html')
 
 
 

@@ -107,6 +107,7 @@ urlpatterns = [
     path('page-error-500/',jiade_views.page_error_500,name="page-error-500"),
     path('page-error-503/',jiade_views.page_error_503,name="page-error-503"),
     
+    #Nuevos de antonio
     path('trend/',jiade_views.trend, name="trend"),
 
 ]
