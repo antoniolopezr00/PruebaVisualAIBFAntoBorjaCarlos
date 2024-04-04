@@ -2,6 +2,11 @@ from django.urls import path
 from jiade import jiade_views
 app_name='jiade'
 urlpatterns = [
+
+
+    
+
+
     path('',jiade_views.index,name="index"),
     path('index/',jiade_views.index,name="index"),
     path('index-2/',jiade_views.index_2,name="index-2"),
@@ -101,5 +106,7 @@ urlpatterns = [
     path('page-error-404/',jiade_views.page_error_404,name="page-error-404"),
     path('page-error-500/',jiade_views.page_error_500,name="page-error-500"),
     path('page-error-503/',jiade_views.page_error_503,name="page-error-503"),
+    
+    path('trend/',jiade_views.trend, name="trend"),
 
 ]

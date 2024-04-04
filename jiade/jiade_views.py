@@ -1,6 +1,11 @@
 from django.shortcuts import render
 
 
+
+def trend(request):
+    return render(request,'jiade/trend.html')
+    
+
 def index(request):
     context={
         "page_title":"Dashboard"
@@ -561,7 +566,9 @@ def page_error_500(request):
 
 def page_error_503(request):
     return render(request,'503.html')
-    
+
+
+
 
 
 
