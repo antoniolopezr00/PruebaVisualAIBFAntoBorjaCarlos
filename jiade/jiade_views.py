@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def trend(request):
-    return render(request,'jiade/trend.html')
+    return render(request,'jiade/usuario/trend.html')
     
 
 def index(request):
