@@ -42,14 +42,22 @@
                 </li>
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">monitoring</i>
-                        <span class="nav-text" href="{% url 'jiade:arboles_decision' %}"> Árboles de Decisión </span>
+                        <span class="nav-text"> Árboles de Decisión </span>
                     </a>
+                    <ul aria-expanded="false">
+                        <li><a href="{% url 'jiade:arboles_decision' %}">Árboles de Decisión</a></li>
+                        </ul>
+                    
                     
                 </li>
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">monitoring</i>
                         <span class="nav-text" href="{% url 'jiade:random_forest' %}">Random Forest</span>
                     </a>
+                    <ul aria-expanded="false">
+                        <li><a href="{% url 'jiade:random_forest' %}">Random Forest</a></li>
+                        
+                    </ul>
                     
                 </li>
                     <!--ul aria-expanded="false">
