@@ -109,5 +109,22 @@ urlpatterns = [
     
     #Nuevos de antonio
     path('trend/',jiade_views.trend, name="trend"),
+    path('seasonal/',jiade_views.seasonal, name="seasonal"),
+    path('sarimax_arima/',jiade_views.sarimax_arima, name="sarimax_arima"),
+    path('residuos/',jiade_views.residuos, name="residuos"),
+    path('prueba_adf/',jiade_views.prueba_adf, name="prueba_adf"),
+    path('prevision/',jiade_views.prevision, name="prevision"),
+    path('autocorrelacion/',jiade_views.autocorrelacion, name="autocorrelacion"),
+    path('random_forest/',jiade_views.random_forest, name="random_forest"),
+    path('matriz_confusion/',jiade_views.matriz_confusion, name="matriz_confusion"),
+    path('lead_source/',jiade_views.lead_source, name="lead_source"),
+    path('last_activity/',jiade_views.last_activity, name="last_activity"),
+    path('histograma/',jiade_views.histograma, name="histograma"),
+    path('grafico_caja/',jiade_views.grafico_caja, name="grafico_caja"),
+    path('distribucion_lead/',jiade_views.distribucion_lead, name="distribucion_lead"),
+    path('curva_rac/',jiade_views.curva_rac, name="curva_rac"),
+    path('count/',jiade_views.count, name="count"),
+    path('costos_beneficos/',jiade_views.costos_beneficios, name="costos_beneficos"),
+    path('arboles_decision/',jiade_views.arboles_decision, name="arboles_decision"),
 
 ]

@@ -571,6 +571,58 @@ def page_error_503(request):
 def trend(request):
     return render(request,'jiade/usuario/series_tiempo/trend.html')
 
+def seasonal(request):
+    return render(request,'jiade/usuario/series_tiempo/seasonal.html')
+
+def sarimax_arima(request):
+    return render(request,'jiade/usuario/series_tiempo/sarimax_arima.html')
+
+def residuos(request):
+    return render(request,'jiade/usuario/series_tiempo/residuos.html')
+
+def prueba_adf(request):
+    return render(request,'jiade/usuario/series_tiempo/prueba_adf.html')
+
+def prevision(request):
+    return render(request,'jiade/usuario/series_tiempo/prevision.html')
+
+def autocorrelacion(request):
+    return render(request,'jiade/usuario/series_tiempo/autocorrelacion.html')
+
+def random_forest(request):
+    return render(request,'jiade/usuario/random_forest/random_forest.html')
+
+def arboles_decision(request):
+    return render(request,'jiade/usuario/arboles_decision/arboles_decision.html')
+
+def costos_beneficios(request):
+    return render(request,'jiade/usuario/autocorrelacion/costos_beneficios.html')
+
+def count(request):
+    return render(request,'jiade/usuario/autocorrelacion/count.html')
+
+def curva_rac(request):
+    return render(request,'jiade/usuario/autocorrelacion/curva_rac.html')
+
+def distribucion_lead(request):
+    return render(request,'jiade/usuario/autocorrelacion/distribucion_lead.html')
+
+def grafico_caja(request):
+    return render(request,'jiade/usuario/autocorrelacion/grafico_caja.html')
+
+def histograma(request):
+    return render(request,'jiade/usuario/autocorrelacion/histograma.html')
+
+def last_activity(request):
+    return render(request,'jiade/usuario/autocorrelacion/last_activity.html')
+
+def lead_source(request):
+    return render(request,'jiade/usuario/autocorrelacion/lead_source.html')
+
+def matriz_confusion(request):
+    return render(request,'jiade/usuario/autocorrelacion/matriz_confusion.html')
+
+
 
 
 
