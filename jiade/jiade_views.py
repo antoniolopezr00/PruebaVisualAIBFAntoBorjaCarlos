@@ -601,8 +601,8 @@ def costos_beneficios(request):
 def count(request):
     return render(request,'jiade/usuario/autocorrelacion/count.html')
 
-def curva_rac(request):
-    return render(request,'jiade/usuario/autocorrelacion/curva_rac.html')
+def curva_roc(request):
+    return render(request,'jiade/usuario/autocorrelacion/curva_roc.html')
 
 def distribucion_lead(request):
     return render(request,'jiade/usuario/autocorrelacion/distribucion_lead.html')
