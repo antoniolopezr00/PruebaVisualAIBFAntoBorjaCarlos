@@ -52,12 +52,12 @@
                     </a>
                     <ul aria-expanded="false">
                         <li><a href="{% url 'jiade:trend' %}">Trend</a></li>
-                        <!--li><a href="{% url 'jiade:seasonal %}">Seasonal</a></li>
+                        <li><a href="{% url 'jiade:seasonal' %}">Seasonal</a></li>
                         <li><a href="{% url 'jiade:residuos' %}">Residuos</a></li>
                         <li><a href="{% url 'jiade:prueba_adf' %}">Prueba ADF</a></li>
                         <li><a href="{% url 'jiade:autocorrelacion' %}">Autocorrelación</a></li>
                         <li><a href="{% url 'jiade:sarimax_arima' %}">Tabla Sarimax y Pronóstico Arima</a></li>
-                        <li><a href="{% url 'jiade:prevision' %}">Predicción Optimista y Pesimista</a></li-->
+                        <li><a href="{% url 'jiade:prevision' %}">Predicción Optimista y Pesimista</a></li>
                     </ul>
 
                 </li>
@@ -66,7 +66,7 @@
                         <span class="nav-text">Autocorrelación</span>
                     </a>
                     <ul aria-expanded="false">
-                        <!--li><a href="{% url 'jiade:lead_source' %}">Lead Source</a></li>
+                        <li><a href="{% url 'jiade:lead_source' %}">Lead Source</a></li>
                         <li><a href="{% url 'jiade:count' %}">Count</a></li>
                         <li><a href="{% url 'jiade:last_activity' %}">Last Activity</a></li>
                         <li><a href="{% url 'jiade:distribucion_lead' %}">Gráfico de Distribucion Lead Profile</a></li>
@@ -74,29 +74,20 @@
                         <li><a href="{% url 'jiade:matriz_confusion' %}">Matriz de Confusión</a></li>
                         <li><a href="{% url 'jiade:grafico_caja' %}">Gráfico de caja</a></li>
                         <li><a href="{% url 'jiade:curva_roc' %}">Curva Roc</a></li>
-                        <li><a href="{% url 'jiade:costos_beneficios' %}">Definicion de costos y beneficios</a></li-->
+                        <li><a href="{% url 'jiade:costos_beneficios' %}">Definicion de costos y beneficios</a></li>
                     </ul>
-                </li>
-                <!--li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
-                        <i class="material-symbols-outlined">monitoring</i>
-                        <span class="nav-text" href="{% url 'jiade:arboles_decision' %}"> Árboles de Decisión </span>
-                    </a-->
-                    <!--ul aria-expanded="false">
-                        <li><a href="{% url 'jiade:market-watch' %}">Market Watch </a></li>
-                        <li><a href="{% url 'jiade:exchange' %}">Exchange</a></li>
-                        <li><a href="{% url 'jiade:banking' %}">Banking</a></li>
-                    </ul-->
                 </li>
                 <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">monitoring</i>
-                        <!--span class="nav-text" href="{% url 'jiade:random_forest' %}">Random Forest</span-->
+                        <span class="nav-text" href="{% url 'jiade:arboles_decision' %}"> Árboles de Decisión </span>
                     </a>
-                    <!--ul aria-expanded="false">
-                        <li><a href="{% url 'jiade:history' %}">History</a></li>
-                        <li><a href="{% url 'jiade:orders' %}">Orders</a></li>
-                        <li><a href="{% url 'jiade:reports' %}">Report</a></li>
-                        <li><a href="{% url 'jiade:user' %}">User</a></li>
-                    </ul-->
+                    
+                </li>
+                <li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">
+                        <i class="material-symbols-outlined">monitoring</i>
+                        <span class="nav-text" href="{% url 'jiade:random_forest' %}">Random Forest</span>
+                    </a>
+                    
                 </li>
                 <!--li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
                         <i class="material-symbols-outlined">apps_outage</i>

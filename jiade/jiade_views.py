@@ -571,7 +571,6 @@ def page_error_503(request):
 def trend(request):
     return render(request,'jiade/usuario/series_tiempo/trend.html')
 
-'''
 def seasonal(request):
     return render(request,'jiade/usuario/series_tiempo/seasonal.html')
 
@@ -624,7 +623,7 @@ def lead_source(request):
 def matriz_confusion(request):
     return render(request,'jiade/usuario/autocorrelacion/matriz_confusion.html')
 
-    '''
+
 
 
 
