@@ -12,13 +12,25 @@
 	<div class="modal-dialog modal-dialog-centered">
 	<div class="modal-content">
 		<div class="modal-header">
-		<h1 class="modal-title fs-5" id="exampleModalLabel">Añadir archivos</h1>
-		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-		</div>
-		<div class="modal-body">
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label mb-2">Introduzca URL</label>
-			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Introduzca URL">
+			<h5 class="modal-title">Cargar Archivos</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<label class="form-label">Cargar Archivos</label>
+				<div>
+					<select class="image-select default-select dashboard-select w-100 mb-3" aria-label="Default">
+						<option selected>- - Desliza - -</option>
+						<option value="1">Mediante URL</option>
+						<option value="2">Cargar Archvio .JSON</option>
+						
+					</select>
+				</div>
+				
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-primary">Añadir</button>
+			<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Cancelar</button>
+			
 		</div>
 		<!--div class="mb-3">
 			<label for="exampleFormControlInput2" class="form-label mb-2">User Name</label>
@@ -32,10 +44,7 @@
 		</div>
 		</div-->
 		</div>
-		<div class="modal-footer">
-		<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">Cancelar</button>
-		<button type="button" class="btn btn-primary">Añadir URL</button>
-		</div>
+		
 	</div>
 	</div>
 </div>
