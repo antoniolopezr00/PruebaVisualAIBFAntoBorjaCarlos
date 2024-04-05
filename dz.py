@@ -4,7 +4,7 @@ folder_name2="jiade"
 
 dz_array = {
         "public":{
-            "favicon":f"/images/favicon.ico",
+            "favicon":"/static/favicon.ico",
             "description":" Artificial Intelligence Banking Forest",
             "og_title":"Artificial Intelligence Banking Forest",
             "og_description":"Artificial Intelligence Banking Forest",
