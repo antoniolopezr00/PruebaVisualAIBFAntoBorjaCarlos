@@ -23,7 +23,7 @@
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="{% static dz_array.public.favicon  %}" />
-	{% for cssurl in dz_array.pagelevel.jiade.jiade_views.css|getdata:request.path %}
+	{% for cssurl in dz_array.pagelevel.aibf.aibf_views.css|getdata:request.path %}
 	<link rel="stylesheet" href="{% static cssurl %}" >
 	{% endfor %}
 	{% for cssurl in dz_array.global.css %}
@@ -44,7 +44,7 @@
 							<div class="dz-error" data-text="503">503</div>
 							<h2 class="error-head mb-0"><i class="fa fa-times-circle text-danger"></i>Service no disponible</h2>
 							<p>¡Disculpa, estamos en mantenimiento!</p>
-							<a href="{% url 'jiade:index' %}" class="btn btn-secondary">VOLVER AL INICIO</a>
+							<a href="{% url 'aibf:index' %}" class="btn btn-secondary">VOLVER AL INICIO</a>
 						</div>
 					</div>
 				</div>
@@ -60,7 +60,7 @@
 <script src="{% static jsurl %}"></script>
 {% endfor %}
 
-{% for jsurl in dz_array.pagelevel.jiade.jiade_views.js|getdata:request.path %}
+{% for jsurl in dz_array.pagelevel.aibf.aibf_views.js|getdata:request.path %}
 <script src="{% static jsurl %}"></script>
 {% endfor %}
 

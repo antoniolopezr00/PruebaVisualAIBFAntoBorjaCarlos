@@ -23,7 +23,7 @@
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="{% static dz_array.public.favicon  %}" />
-	{% for cssurl in dz_array.pagelevel.jiade.jiade_views.css|getdata:request.path %}
+	{% for cssurl in dz_array.pagelevel.aibf.aibf_views.css|getdata:request.path %}
 	<link rel="stylesheet" href="{% static cssurl %}" >
 	{% endfor %}
 	{% for cssurl in dz_array.global.css %}
@@ -44,7 +44,7 @@
 							<div class="dz-error" data-text="400">400</div>
 							<h2 class="error-head mb-0"><i class="fa fa-thumbs-down text-danger me-2"></i>Solicitud incorrecta</h2>
 							<p>No tienes permiso para ver este recurso.</p>
-							<a href="{% url 'jiade:index' %}" class="btn btn-secondary">VOLVER AL INCIO</a>
+							<a href="{% url 'aibf:index' %}" class="btn btn-secondary">VOLVER AL INCIO</a>
 						</div>
 					</div>
 				</div>
@@ -60,7 +60,7 @@
 <script src="{% static jsurl %}"></script>
 {% endfor %}
 
-{% for jsurl in dz_array.pagelevel.jiade.jiade_views.js|getdata:request.path %}
+{% for jsurl in dz_array.pagelevel.aibf.aibf_views.js|getdata:request.path %}
 <script src="{% static jsurl %}"></script>
 {% endfor %}
 

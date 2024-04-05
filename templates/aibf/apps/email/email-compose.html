@@ -1,0 +1,23 @@
+{% extends 'aibf/elements/layouts/admin.html' %}
+{% load static %}
+        
+{% block additional_css %}
+{% endblock %}
+        
+{% block content %}
+<!--**********************************
+    Content body start
+***********************************-->
+
+<!--**********************************
+    Content body end
+***********************************-->
+{% endblock %}
+
+{% block additional_js %}
+<script>
+    $(".email-tools-box").on('click', function () {
+        $(' .email-left-body ,.email-tools-box').toggleClass("active");
+    });
+</script>
+{% endblock %}
