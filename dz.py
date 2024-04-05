@@ -86,10 +86,10 @@ dz_array = {
                             f"{folder_name2}/vendor/chartist/css/chartist.min.css",
                             f"{folder_name2}/vendor/nestable2/css/jquery.nestable.min.css",
                         ],
-                        "email_template": [
+                        "perfil_template": [
                             f"{folder_name2}/vendor/bootstrap-datepicker-master/css/bootstrap-datepicker.min.css",
                         ],
-                        "add_email": [
+                        "add_perfil": [
                             f"{folder_name2}/vendor/select2/css/select2.min.css",
                         ],
                         "blog": [
@@ -149,12 +149,12 @@ dz_array = {
                         ],
                         "ecom_product_order": [
                         ],
-                        "email_compose": [
+                        "perfil_compose": [
                             f"{folder_name2}/vendor/dropzone/dist/dropzone.css",
                         ],
-                        "email_inbox": [
+                        "perfil_inbox": [
                         ],
-                        "email_read": [
+                        "perfil_read": [
                         ],
                         "form_editor": [
                         ],
@@ -342,11 +342,11 @@ dz_array = {
                             f"{folder_name2}/vendor/ckeditor/ckeditor.js",
                             f"{folder_name2}/vendor/datatables/js/jquery.dataTables.min.js",
                         ],
-                        "email_template": [
+                        "perfil_template": [
                             f"{folder_name2}/vendor/bootstrap-datepicker-master/js/bootstrap-datepicker.min.js",
                             f"{folder_name2}/js/dashboard/cms.js",
                         ],
-                        "add_email": [
+                        "add_perfil": [
                             f"{folder_name2}/vendor/bootstrap-datepicker-master/js/bootstrap-datepicker.min.js",
                             f"{folder_name2}/vendor/ckeditor/ckeditor.js",
                             f"{folder_name2}/vendor/select2/js/select2.full.min.js",
@@ -441,12 +441,12 @@ dz_array = {
                         ],
                         "ecom_product_order": [
                         ],
-                        "email_compose": [
+                        "perfil_compose": [
                             f"{folder_name2}/vendor/dropzone/dist/dropzone.js",
                         ],
-                        "email_inbox": [
+                        "perfil_inbox": [
                         ],
-                        "email_read": [
+                        "perfil_read": [
                         ],
                         "form_editor": [
                             f"{folder_name2}/vendor/ckeditor/ckeditor.js",

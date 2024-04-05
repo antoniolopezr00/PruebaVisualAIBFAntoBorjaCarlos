@@ -138,18 +138,18 @@ def menu(request):
     return render(request,'aibf/cms/menu.html',context)
 
 
-def email_template(request):
+def perfil_template(request):
     context={
-        "page_title":"Email Template"
+        "page_title":"perfil Template"
     }
-    return render(request,'aibf/cms/email-template.html',context)
+    return render(request,'aibf/cms/perfil-template.html',context)
 
 
-def add_email(request):
+def add_perfil(request):
     context={
-        "page_title":"Add Email"
+        "page_title":"Add perfil"
     }
-    return render(request,'aibf/cms/add-email.html',context)
+    return render(request,'aibf/cms/add-perfil.html',context)
 
 
 def blog(request):
@@ -177,7 +177,7 @@ def app_profile(request):
     context={
         "page_title":"App Profile"
     }
-    return render(request,'aibf/apps/app-profile.html',context)
+    return render(request,'aibf/apps/mi_perfil.html',context)
 
 
 def edit_profile(request):
@@ -194,25 +194,25 @@ def post_details(request):
     return render(request,'aibf/apps/post-details.html',context)
 
 
-def email_compose(request):
+def perfil_compose(request):
     context={
         "page_title":"Compose"
     }
-    return render(request,'aibf/apps/email/email-compose.html',context)
+    return render(request,'aibf/apps/perfil/perfil-compose.html',context)
 
 
-def email_inbox(request):
+def perfil_inbox(request):
     context={
         "page_title":"Inbox"
     }
-    return render(request,'aibf/apps/email/email-inbox.html',context)
+    return render(request,'aibf/apps/perfil/perfil-inbox.html',context)
 
 
-def email_read(request):
+def perfil_read(request):
     context={
         "page_title":"Read"
     }
-    return render(request,'aibf/apps/email/email-read.html',context)
+    return render(request,'aibf/apps/perfil/perfil-read.html',context)
 
 
 def app_calender(request):
