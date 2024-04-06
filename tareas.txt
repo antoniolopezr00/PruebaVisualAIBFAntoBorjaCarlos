@@ -1,0 +1,43 @@
+===============================
+------ TAREAS A REALIZAR ------
+===============================
+
+TAREA COMÚN:
+----------------------------------------------------------------
+ 1 Esquema proyecto
+ 2 Boceto de visualiacion api
+ 3 boceto de funcionamiento de las tablas
+ 4 boceto de bases de datos con respectivos datos 
+ 5 Tipos de reportes SON EN JSON.  
+ 6 cosas que creemos que hacen falta al tares. 
+
+
+
+CARLOS:
+----------------------------------------------------------------
+ 1 Diseñar en papel una idea de como va a ser la web
+ 2 Diseñar en papel como va a ser la visulaizacion sin ser usuario
+ 3 Como va a ser la visualizacion siendo usuario
+ 4 crear plantillas css y .html
+ 
+
+
+
+
+ANTONIO:
+----------------------------------------------------------------
+  1 Instalar Django y ver como instalar la nueva web HECHO
+  2 ver como modificarla IT´S COMMING
+
+
+
+BORJA:
+----------------------------------------------------------------
+*** Base de datos En Sql server ***
+ 1 Configurar la base de datos LISTO
+ 2 Implementarla en django LISTO
+ 3 Instalar las dependencias necesarias en el venv LISTA
+ 4 Crear models.py con datos en tablas NO ES NECESARIO
+ 5 Comprobar que los datos se registran y  se pueden visualizar LISTO
+ 6 Crear panel de administrador
+

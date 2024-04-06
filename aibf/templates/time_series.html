@@ -1,0 +1,40 @@
+<!-- Ejemplo básico de una plantilla HTML -->
+<html>
+<head>
+    {% load filters %}
+    <title>Mi Aplicación</title>
+</head>
+<body>
+    <form action="/time_series/" method="post" id="dataForm">
+        {% csrf_token %}
+        <input type="hidden" name="szFields" value="id_user,acType">
+
+        <!-- <label for="id">ID:</label>
+        <input type="number" id="id" name="id"><br><br> -->
+
+        <label for="id_user">ID Usuario:</label>
+        <input type="number" id="id_user" name="id_user" required><br><br>
+        <label for="acType">Tipo de Acción:</label>
+        <input type="text" id="acType" name="acType" required><br><br>
+
+        <input type="submit" value="Enviar Datos">
+    </form>
+    <!-- Aquí puedes iterar sobre los datos y mostrarlos -->
+    <meta charset="UTF-8">
+    <title>Visualización de Datos</title>
+</head>
+<body>
+    <h1>Análisis de Time Series</h1>
+
+    {% if graphic %}
+        <h2>Gráfica de Resultados Mensuales</h2>
+        <!-- Mostrar la gráfica -->
+        <img src="data:image/png;base64,{{ graphic }}" alt="Gráfica de Resultados Mensuales">
+    {% else %}
+        <p>No hay datos para mostrar.</p>
+    {% endif %}
+
+    <!-- Aquí puedes incluir otros elementos de tu página, como formularios o tablas de datos -->
+
+</body>
+</html>
